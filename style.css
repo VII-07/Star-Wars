@@ -127,5 +127,22 @@ select {
 .next:hover{
   background-color: black;
   border-color: black;
-  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1);
+}
+
+@media(max-width: 400px){
+  .card__top{
+    padding: 20px;
+  }
+  .card__bottom{
+    padding: 20px;
+  }
+  .card__name{
+    font-size: 30px;
+  }
+  .color__name{
+    font-size: 14px;
+  }
 }

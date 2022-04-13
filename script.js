@@ -42,7 +42,7 @@ async function loadList() {
 
 loadList();
 
-next.addEventListener('click', async() => {
+next.addEventListener('click', () => {
 
     colorHair.style.background = 'none';
     colorEye.style.background = 'none';
