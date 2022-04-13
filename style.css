@@ -122,4 +122,10 @@ select {
     background: none;
     border: 3px solid #FBE24C;
     padding: 8px 46px;
+    transition: 0.3s;
+}
+.next:hover{
+  background-color: black;
+  border-color: black;
+  transform: scale(1.1, 1.1);
 }
