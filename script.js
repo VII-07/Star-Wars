@@ -49,7 +49,7 @@ next.addEventListener('click', () => {
     colorSkin.style.background = 'none';
 
     if(count > 8){
-        count = 0
+        count = 0;
     } else {
         count++;
     }
@@ -57,8 +57,4 @@ next.addEventListener('click', () => {
     loadList();
 });
 
-for(let i = 0; i <= 50; i++){
-    if(i % i == 0 && i % 1 == 0){
-        console.log(i);
-    }
-}
+
